@@ -1,0 +1,19 @@
+@import url(../node_modules/animate.css/animate.min.css);
+@import url(../node_modules/sweetalert2/dist/sweetalert2.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-inria;
+}
+
+.swal2-confirm {
+  @apply bg-stone-900 text-stone-100 !important;
+}
+
+.swal2-cancel {
+  @apply bg-stone-300 text-stone-900 !important;
+}
