@@ -77,7 +77,7 @@ export const doneAllHandler = () => {
             text: "You won't be able to revert this!",
             icon: "warning",
             showCancelButton: true,
-            confirmButtonText: "Yes, delete it!"
+            confirmButtonText: "Yes!"
           }
         ).then((result) => {
         if(result.isConfirmed){
